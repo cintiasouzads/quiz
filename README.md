@@ -1,3 +1,7 @@
+Para acessar o projeto, clique no link: https://cintiasouzads.github.io/quiz/
+
+
+
 📋Objetivo
 
 Este projeto é um quiz interativo com três perguntas, onde o usuário tem um minuto para responder cada uma. Caso o tempo expire sem resposta, o quiz é automaticamente encerrado. Ao completar o quiz, o usuário pode ver a sua pontuação total. Este projeto foi desenvolvido para praticar habilidades em HTML, CSS e JavaScript, além de oferecer uma experiência de aprendizado divertida.
