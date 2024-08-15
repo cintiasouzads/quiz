@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ</title>
+</head>
+<body>
+    
+    <div id="quiz">
+      <div class="question active" data-correct="true">
+    <p>Qual é o significado de HTML?</p>
+    <label>
+      <input type="radio" name="question1" value="true"> HiperText Markup Language
+    </label>
+    <label>
+      <input type="radio" name="question1" value="false"> HoperTox Makeup Languade
+    </label>
+    <label>
+      <input type="radio" name="question1" value="false"> HeperText Meikeup Language
+    </label>
+  </div>
+
+  <div class="question" data-correct ="true">
+    <p>Qual é o significado de CSS</p>
+    <label>
+      <input type="radio" name="question2" value="true">Cascading Style Sheets
+    </label>
+    <label>
+      <input type="radio" name="question2" value="false">Cascading Sheets Style
+    </label>
+    <label>
+      <input type="radio" name="question2" value="false"> Castrading Style Sheets
+    </label>
+  </div>
+
+  <div class="question" data-correct ="true">
+    <p>Qual propriedade CSS define o estilo da fonte?</p>
+    <label>
+      <input type="radio" name="question2" value="false"> font-size
+    </label>
+    <label>
+      <input type="radio" name="question2" value="true"> font-style
+    </label>
+    <label>
+      <input type="radio" name="question2" value="false"> font-weight
+    </label>
+  </div>
+ 
+  <button id="nextButton">Próxima</button>
+</div>
+
+<p id="timer"><span id="time">Tempo restante:</span></p>
+
+<p id="result" style="display: none;"></p>
+
+
+
+  
+    
+
+
+
+  <script src="script.js"></script>  
+</body>
+</html>
